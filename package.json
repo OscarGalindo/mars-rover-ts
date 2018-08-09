@@ -1,0 +1,21 @@
+{
+  "name": "esolang-interpreters-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "unit": "jest --testPathPattern unit",
+    "integration": "jest --testPathPattern integration"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "23.3.1",
+    "jest": "23.4.2",
+    "jest-extended": "0.8.1",
+    "typescript": "3.0.1",
+    "ts-jest": "23.1.3"
+  }
+}
