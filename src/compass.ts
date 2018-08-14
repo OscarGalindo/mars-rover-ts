@@ -38,6 +38,6 @@ export class Compass {
   }
 
   toString() {
-    return `Compass(${this.constructor.name},${this.point.toString()})`
+    return `Compass(${this.point.toString()})`
   }
 }
