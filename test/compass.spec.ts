@@ -1,5 +1,5 @@
-import {Point} from "../../src/mars-rover/point";
-import {Compass} from "./compass";
+import {Point} from "../src/point";
+import {Compass} from "../src/compass";
 
 describe("given compass", () => {
   const northCompass = Compass.north();

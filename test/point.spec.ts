@@ -1,4 +1,4 @@
-import {Point} from "../../src/mars-rover/point";
+import {Point} from "../src/point";
 
 describe("given a point", () => {
   const point = new Point(1, 1);
